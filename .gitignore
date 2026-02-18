@@ -1,0 +1,5 @@
+.env
+backend-scrappers/.env
+node_modules/
+__pycache__/
+*.pyc

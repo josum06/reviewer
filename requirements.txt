@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+google-api-python-client
+selenium
+webdriver-manager
+vaderSentiment
+nltk
+flask
+flask-cors
+groq
+firecrawl-py
+google-generativeai
