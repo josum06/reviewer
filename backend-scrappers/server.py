@@ -1,68 +1,74 @@
-# server.py
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify
 from flask_cors import CORS
+import pandas as pd
+import os
 
-from youtube import fetch_youtube_data
-from reddit import fetch_reddit_data
-
-# Groq + Firecrawl versions
-from shiksha_groq import fetch_shiksha_data_firecrawl
-from collegedunia_groq import fetch_collegedunia_data_firecrawl
-from careers360_groq import fetch_careers360_data_firecrawl
-
-# Analysis functions
-from analysis import clean_texts, analyze_source
+from analysis import run_analysis, get_reddit, get_careers360, get_shiksha, get_collegedunia, get_youtube
 
 app = Flask(__name__)
 CORS(app)
 
-fetch_functions = {
-    "youtube": fetch_youtube_data,
-    "reddit": fetch_reddit_data,
-    "shiksha": fetch_shiksha_data_firecrawl,
-    "collegedunia": fetch_collegedunia_data_firecrawl,
-    "careers360": fetch_careers360_data_firecrawl,
+PLATFORM_MAP = {
+    'reddit':       get_reddit,
+    'shiksha':      get_shiksha,
+    'careers360':   get_careers360,
+    'collegedunia': get_collegedunia,
+    'youtube':      get_youtube,
 }
 
-@app.route('/api/<platform>', methods=['GET'])
-def analyze_platform(platform):
-    query = request.args.get('query', '').strip()
+# ── All sentiment data ────────────────────────────────────────
+@app.route('/api/sentiment', methods=['GET'])
+def get_sentiment():
+    csv_path = 'results/all_sentiment.csv'
+    if not os.path.exists(csv_path):
+        run_analysis()
+    df = pd.read_csv(csv_path)
+    return jsonify(df.to_dict(orient='records'))
 
-    if not query:
-        return jsonify({"error": "Query parameter is required"}), 400
+# ── Get data for single platform ──────────────────────────────
+@app.route('/api/sentiment/<platform>', methods=['GET'])
+def get_platform_sentiment(platform):
+    csv_path = 'results/all_sentiment.csv'
+    if not os.path.exists(csv_path):
+        return jsonify([])
+    df = pd.read_csv(csv_path)
+    filtered = df[df['source'].str.lower() == platform.lower()]
+    return jsonify(filtered.to_dict(orient='records'))
 
-    if platform not in fetch_functions:
-        return jsonify({"error": "Invalid platform"}), 400
+# ── Re-run ALL platforms ──────────────────────────────────────
+@app.route('/api/run', methods=['GET'])
+def run_all():
+    run_analysis()
+    return jsonify({"status": "All platforms analysed"})
 
-    print(f"[SERVER] Request for {platform} | Query: {query}")
+# ── Re-run SINGLE platform ────────────────────────────────────
+@app.route('/api/run/<platform>', methods=['GET'])
+def run_platform(platform):
+    csv_path = 'results/all_sentiment.csv'
+
+    fn = PLATFORM_MAP.get(platform.lower())
+    if not fn:
+        return jsonify({"error": f"Unknown platform: {platform}"}), 400
 
     try:
-        print(f"[SERVER] Calling fetch function: {fetch_functions[platform].__name__}")
-        raw_texts = fetch_functions[platform](query)
-        print(f"[SERVER] Raw texts received: {len(raw_texts)} items")
-
-        cleaned = clean_texts(raw_texts)
-        print(f"[SERVER] Cleaned texts: {len(cleaned)} items")
-
-        result = analyze_source(cleaned, platform)
-        print(f"[SERVER] Analysis complete for {platform}")
-
-        return jsonify(result)
-
+        new_results = fn()
     except Exception as e:
-        import traceback
-        error_msg = str(e)
-        print(f"[SERVER ERROR] {platform} failed: {error_msg}")
-        traceback.print_exc()
-        return jsonify({
-            "error": error_msg,
-            "platform": platform,
-            "query": query
-        }), 500
+        return jsonify({"error": str(e)}), 500
 
-@app.route('/api/health', methods=['GET'])
-def health_check():
-    return jsonify({"status": "ok"})
+    # Load existing CSV and replace this platform's data
+    if os.path.exists(csv_path):
+        df_existing = pd.read_csv(csv_path)
+        df_existing = df_existing[df_existing['source'].str.lower() != platform.lower()]
+    else:
+        df_existing = pd.DataFrame()
 
-if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    if new_results:
+        df_new = pd.DataFrame(new_results)
+        df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+        os.makedirs("results", exist_ok=True)
+        df_combined.to_csv(csv_path, index=False)
+
+    return jsonify(new_results)
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
