@@ -8,5 +8,8 @@ nltk
 flask
 flask-cors
 groq
-firecrawl-py
+firecrawl
 google-generativeai
+tavily-python
+pydantic
+python-dotenv

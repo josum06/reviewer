@@ -15,7 +15,7 @@ class ReviewsData(BaseModel):
         description="Extract ONLY the full original student review texts including Likes and Dislikes sections. Never include ratings, dates, reviewer names, buttons, ads or navigation text."
     )
 
-# ── Junk line detector ────────────────────────────────────────
+# ── Junk line detector 
 def is_junk(line: str) -> bool:
     line = line.strip()
 

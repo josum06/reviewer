@@ -98,8 +98,3 @@ def fetch_reddit_data_json(max_posts: int = 100) -> list[dict]:
 
 if __name__ == "__main__":
     reddit_data = fetch_reddit_data_json(max_posts=20)
-
-    # for item in reddit_data:
-    #     print(f"\nLink: {item['source_url']}")
-    #     text = item['text']
-    #     print(f"  {text[:200]}..." if len(text) > 200 else f"  {text}")

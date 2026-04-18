@@ -85,12 +85,4 @@ def fetch_youtube_data(query: str, max_videos: int = 8, max_comments: int = 25) 
 if __name__ == "__main__":
     yt_data = fetch_youtube_data("Bhagwan Parshuram Institute of Technology", max_videos=4 ,max_comments=10)
     
-    for item in yt_data:
-        print(f"\nLink: {item['source_url']}")
-        print(f"Extracted {len(item['comments'])} comments.")
-        if item['comments']:
-            print("Comments:")
-            for i, comment in enumerate(item['comments'], 1):
-                print(f"  {i}. {comment[:200]}..." if len(comment) > 200 else f"  {i}. {comment}")
-        else:
-            print("  No comments extracted")
+   

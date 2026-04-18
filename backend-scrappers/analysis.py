@@ -13,7 +13,7 @@ from youtube import fetch_youtube_data
 
 analyzer = SentimentIntensityAnalyzer()
 
-# ── SENTIMENT FUNCTION ───────────────────────────────────────
+# ── SENTIMENT FUNCTION 
 def analyse(text):
     scores = analyzer.polarity_scores(str(text))
     compound = scores['compound']
@@ -26,7 +26,7 @@ def analyse(text):
     return label, compound
 
 
-# ── REDDIT ───────────────────────────────────────────────────
+# ── REDDIT 
 def get_reddit():
     print("\n[Reddit] Fetching...")
     raw = fetch_reddit_data_json(max_posts=50)
@@ -44,7 +44,7 @@ def get_reddit():
     return results
 
 
-# ── CAREERS360 ───────────────────────────────────────────────
+# ── CAREERS360 
 def get_careers360():
     print("\n[Careers360] Fetching...")
     raw = fetch_careers360_data("BPIT", max_results=2, max_reviews=15, cycles=1)
@@ -66,7 +66,7 @@ def get_careers360():
     return results
 
 
-# ── SHIKSHA ──────────────────────────────────────────────────
+# ── SHIKSHA 
 def get_shiksha():
     print("\n[Shiksha] Fetching...")
     raw = fetch_shiksha_data("BPIT", max_results=2, max_reviews=15, cycles=1)
@@ -88,7 +88,7 @@ def get_shiksha():
     return results
 
 
-# ── COLLEGEDUNIA ─────────────────────────────────────────────
+# ── COLLEGEDUNIA 
 def get_collegedunia():
     print("\n[Collegedunia] Fetching...")
     raw = fetch_collegedunia_data("BPIT", max_results=2, max_reviews=100, cycles=10)
@@ -110,8 +110,7 @@ def get_collegedunia():
     return results
 
 
-# ── YOUTUBE ──────────────────────────────────────────────────
-# Spam/junk keywords to filter out from comments
+# ── YOUTUBE 
 YOUTUBE_SPAM = [
     'http', 'https', 'wa.me', 'whatsapp', 'click here',
     'jumpstart', 'subscribe', 't.me', 'telegram', 'instagram.com',
@@ -159,7 +158,7 @@ def get_youtube():
     return results
 
 
-# ── MAIN RUN FUNCTION ────────────────────────────────────────
+# ── MAIN RUN FUNCTION 
 def run_analysis():
     all_results = []
 
@@ -187,13 +186,6 @@ def run_analysis():
         all_results += get_youtube()
     except Exception as e:
         print(f"[YouTube] Error: {e}")
-
-    # ── Add more platforms here ──
-    # try:
-    #     all_results += get_instagram()
-    # except Exception as e:
-    #     print(f"[Instagram] Error: {e}")
-
     if not all_results:
         print("No data collected from any platform.")
         return pd.DataFrame()
@@ -255,9 +247,7 @@ def run_analysis():
 
     print("\nAll CSVs and charts saved in results/ folder")
     return df
-
-
-# ── RUN DIRECTLY ─────────────────────────────────────────────
+    
 if __name__ == '__main__':
     df = run_analysis()
 

@@ -25,12 +25,3 @@ def fetch_collegedunia_data(query: str, max_results: int = 3, max_reviews: int =
 
 if __name__ == "__main__":
     data = fetch_collegedunia_data("BPIT", max_results=2, max_reviews=50, cycles=8)
-
-    for item in data:
-        print(f"\nLink: {item['source_url']}")
-        print(f"Total Reviews: {len(item['reviews'])}")
-        if item['reviews']:
-            for i, review in enumerate(item['reviews'], 1):
-                print(f"  {i}. {review[:200]}..." if len(review) > 200 else f"  {i}. {review}")
-        else:
-            print("  No reviews extracted")

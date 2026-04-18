@@ -25,17 +25,6 @@ def fetch_careers360_data(query: str, max_results: int = 2, max_reviews: int = 1
     
     return output
 
-# --- Test it ---
 if __name__ == "__main__":
     data = fetch_careers360_data("BPIT", max_results=2, max_reviews=5, cycles=1)
     
-    # Print out the results to see the structure
-    # for item in data:
-    #     print(f"\nLink: {item['source_url']}")
-    #     print(f"Total Reviews: {len(item['reviews'])}")
-    #     if item['reviews']:
-    #         print("Reviews:")
-    #         for i, review in enumerate(item['reviews'], 1):
-    #             print(f"  {i}. {review[:200]}..." if len(review) > 200 else f"  {i}. {review}")
-    #     else:
-    #         print("  No reviews extracted")
