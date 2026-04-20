@@ -1,187 +1,4 @@
 source,link,text,sentiment,score
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1rmyn22/bpit_worst_clg/,"BPIT worst clg Bhai mat ana sabse bekar clg h
-Campus vaise hi chhota h bhadwo n aur chota kr diya construction k liye
-Classes m ac nai h inpe existing cheeze to acchi hoti nai h nayi banne chale h 
-Attendance teacher chill nai h itni aur dean  marks kat leta h sala
-Aur ye jo maths ki hod h anurima ye sabse jydada bkl h 
-Na campus accha h aur rhi bat placement ki vo to lagbhag sare ipu ki ek jaisi h isse accha vips lelo 
-Priority rakho
-Mait msit bvcoe vips bpit",NEGATIVE,-0.6249
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9vtpj/bpit_placement_stats/,BPIT PLACEMENT STATS https://acrobat.adobe.com/id/urn:aaid:sc:AP:d818e5f1-da90-4535-b105-2737ca69f647,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mky6r3/bpit_it_w_or_l/,BPIT IT W or L At 2.3 lakh rank hs general is bpit it worth it?,POSITIVE,0.6841
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9xn9d/is_bpit_good_for_ece/,Is bpit good for ece,POSITIVE,0.4404
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1e78zxa/is_bpit_placement_data_wrong/,Is bpit placement data wrong?  Should i prefer this college. I am getting cse here,NEGATIVE,-0.4767
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1me6pyl/who_are_coming_to_bpit_on_4th_of_august/,"Who are coming to BPIT on 4th of August Hello my fellows I am very excited to go to college and hope that you all will also be, also Mention in the comments which branches you all got and let's meet at 8:50 at the gate on 4th August",POSITIVE,0.6801
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1pqhj4w/ye_msit_ke_toilets_are_terrible_im_from_bpit_aur/,"ye MSIT ke toilets are TERRIBLE. im from bpit aur yaha centre mila hai. yaha na toh health phoset hai na bidet, and the washroom looks as if no ones been there for a century. koi bacha jaata bhi hai kya?",NEGATIVE,-0.7213
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1jxmk1t/bvcoebpit_cse_or_it/,Bvcoe/BPIT (CSE or IT) Is it possible to get IT or Cse in BVCOE OR BPIT at around 3 lakh-3.5 lakh round in the spot rounds? 😭,NEGATIVE,-0.4767
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1k4fmr9/guys_make_this_clear_n_crystal_for_your/,Guys make this clear n crystal for your councelling preference.(Tech Branch only) Usict&gt;mait&gt;msit&gt;usar&gt;bpit&gt;bvcoe&gt;Vips&gt;gtbit&gt;adgips.,POSITIVE,0.4588
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m4e3ob/vipsadgipsgtbit_cse_vs_bvcoebpit_ece/,VIPS/ADGIPS/GTBIT CSE vs BVCOE/BPIT ECE ???? Pls btado koi,POSITIVE,0.3094
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mf1ate/bpit_it_gtbit_cse_gtbit_cse_ai_gtbit_it_gtbit_cse/,"BPIT IT, GTBIT CSE, GTBIT CSE AI, GTBIT IT, GTBIT CSE DS ko rank kardo for spot choice filling....",NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1kujyiq/gtbit_cse_or_bpit_ece_or_bvcoe_ece_or_mait_eee/,"Gtbit cse or BPIT ece or BVCOE ece or MAIT eee. Vv confused. Which one would be better?
-(Ghar ke sbse paas is bpit then mait.)",POSITIVE,0.1531
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1lucjj7/how_much_ive_to_pay_for_management_quote_to_get/,How much I've to pay for management quote to get admission in BPIT OR MSIT? For btech in CSE,NEGATIVE,-0.1027
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1pmz87p/bpit_me_phone_leke_ja_sakte_hai_chori_to_nhi_hoga/,BPIT me Phone leke ja sakte hai. Chori to nhi hoga? Jaldi bta do please For Endsem Exam,POSITIVE,0.3182
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1pmn3ex/bpit/,"Bpit How to reach bpit? 
-I know that for there I hv to first reach rithala then ?",POSITIVE,0.1431
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1lf86x2/drop_leke_bhi_bpit_mein_cse_milegaa/,Drop leke bhi bpit mein cse milegaa🙂‍↔️😂😂😂🤣🤣 Koi btaa do placements kesi hongii🙂‍↔️🙂‍↔️🙂‍↔️😌,POSITIVE,0.9762
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mfrhic/very_genuinely_batado_25_lakh_rank_mein_spot_1/,Very genuinely batado 2.5 lakh rank mein spot 1 aur 2 mein kya mil sakta hai at GTBIT BVCOE and BPIT (outside delhi general),NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mcyyi9/bpit_fees/,BPIT FEES Do we have to pay rest of the fees through bpit india website?,NEGATIVE,-0.1027
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1r8f2nt/bpit_sports_meet/,"Bpit Sports meet bpit ka sports meet ha 23 sa start ha 27 tak toh us ka bich me normal class previous jasa University ka sport meet tah hasa cancelled hogi ya nahi 
-
- confirm or deny?!?!?!!!",POSITIVE,0.4781
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9s0ev/bpit/,BPIT Kisi ko BPIT mai 2 lac ke Around it mili hai??,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1ecs82s/bpit_freshers_assemble/,BPIT Freshers assemble!! Bhai stream comment krdo jo bhi BPIT ja rha hai and he/she is sure. Jaan pehchaan banaate hai thodi.,POSITIVE,0.4374
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m33sns/bpit_cse_or_jaypee_noida_cse/,BPIT CSE OR JAYPEE NOIDA CSE Please guide me,POSITIVE,0.3182
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m4fo8j/bpit_cse_or_mait_it/,"BPIT CSE or MAIT IT I got bpit cse in first round (and second too) , now i have option 
-Maybe i can get mait it in third round
-Should i prefer college over branch?",NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9qsps/these_are_document_list_for_gtb_4_centenary_and/,These are document list for GTB 4 Centenary and BPIT. BPIT- https://acrobat.adobe.com/id/urn:aaid:sc:AP:406d8ddd-97d0-4bc7-9dd7-961dbfd8c8ef,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mekd4x/gtbit_aur_bpit_ke_andar_attendance_ka_kya_scene/,GTBIT AUR BPIT KE ANDAR ATTENDANCE KA KYA SCENE HAI?? AUR KIRNE GHANTE CLASS HOTI HAI PER DAY...??,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1lc3w50/bpit_vs_bvp_pune_cse_in_both/,"BPIT vs BVP pune (cse in both) Boht zyada cofusion hai  samajh nhi ara what to choose.
-BPIT ki cse average 2 lacs zyada hai but college life suffer kregi 
-Pls help in decision making. 
-I don't want placements or college life to suffer.",NEGATIVE,-0.7804
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1md2p42/bpit_eee_wala_h_koi/,BPIT EEE WALA H KOI?,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1miihb2/kiet_autonomous_aktu_cse_vs_bpit_ipu/,"KIET {autonomous, AKTU} cse vs BPIT {IPU} Please tell with reasons",POSITIVE,0.3182
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1l0u66u/bhyi_sab_log_dhyan_se_suno_ipu_me_12_se_13_lakh/,Bhyi sab log dhyan se suno ipu me 12 se 13 lakh lgane ece ya eee me college like bpit bvcoe msit me ek outside delhi walle ko ( syd scholarship bhi nhi h ) shi rhega benefit h,POSITIVE,0.6705
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mpawia/seat_vacancy_cse_in_bvcoe_bpit/,Seat vacancy CSE in BVCOE BPIT Bhai kisi ko idea hai spot 2 ke liye seats hai ki bhi nhi bvcoe bpit cse/it me,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mgcwli/bhai_meri_8_rank_h_mera_ko_koi_bpit_vips_mil/,"Bhai Meri 8 rank h mera ko koi Bpit vips mil sakta hai IT, ECE",NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1ki7142/on_yt_video_they_say_maitmsitbpit_when_search_for/,on yt video they say MAIT&gt;MSIT&gt;BPIT when search for placement on internet it is BPIT&gt;MSIT&gt;MAIT what is truth? some senior explain! i am outside delhi general male 78K rank ! if any suggestion then please give!!!,POSITIVE,0.6973
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mc6pkh/do_i_have_any_chance_to_get_into_bvcoebpit_it/,Do I have any chance to get into bvcoe/bpit IT branch through management quota? I have got 83% aggregate in class 12. I already have a seat in GTB4cec through my jee rank which is very poor.,NEGATIVE,-0.3384
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1k65qua/bvcoebpit_ece_vs_adgitm_cse/,BVCOE/BPIT ECE V/S ADGITM CSE Asking for a friend (crl:- 2lakh HS:- DELHI ) very less chances that he will get IT in any of those,POSITIVE,0.6105
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1n44z81/kiet_ece_vs_bpitbvoce_ece/,KIET ECE VS BPIT/BVOCE ECE ? HELP,POSITIVE,0.5319
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1p8qz4j/how_to_reach_bpit/,How to reach BPIT ? For Endsem exam,NEUTRAL,0.0258
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m4wphl/does_amazon_visit_bvcoe_for_on_campus_hiring_like/,Does amazon visit bvcoe for on campus hiring? Like it does visit bpit afaik,POSITIVE,0.4939
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mub96b/result_agaya_i_got_bpit/,Result agaya I got bpit,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1p8yjx2/bpit/,Bpit How to reach from rithala metro station,NEUTRAL,0.0258
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1pa9wf9/is_there_parking_inside_bpit_for_bike_during_exam/,Is there parking inside bpit for bike during exam hours?,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1p9ewb6/bpit_kese_jana/,Bpit kese jana? Same,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1p8rehx/bpit_nearest_metrocan_i_park_my_bike_inside/,Bpit nearest metro?Can I park my bike inside college during exam??,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1kv6eqj/bpit_bvcoe_and_vips_students/,"BPIT, BVCOE and VIPS students- mostly interested in negatives cuz positives toh tier 3 college mai kya hi honge
-
-Assignments wagera bohot zyada milte hai kya?
-
-how's the overall strictness?
-
-do you get time to have fun + self study or internships?
-
-I can get admission in VIPS CSE and ECE in the other two, so I'd like to know your thoughts
-
-  
-I'll most likely try to crack off campus placements and internships toh uss hisaab se chahiye",POSITIVE,0.9139
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9piyx/would_u_rather_prefer_bpit_cse_or_mait_it/,Would u rather prefer bpit cse or mait IT??,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1ktl9f9/adgitm_cse_or_bpit_it/,Adgitm Cse or Bpit IT ??,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1kc0pos/bpit_ece_placement_and_all_reviews_up_domicile/,Bpit ece ? Placement and all reviews? UP domicile,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1m4so3p/bpit_management_quota/,"BPIT Management quota 84.3 percent hai 12th me no jee, BPIT me hojayega kya?? Option me waha cuet ke marks likhne ka option hai jee ke alawa.
-
-btado please taaki mai bhardu fees ya dronacharya me lelu?? gurgaon btado kuch.
-
-ipu ke kisi bhi clg me hoga mera admission",POSITIVE,0.264
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1lz1naq/usaraimlaids_bvcoecse_bpitcse/,"Usar(aiml/aids), bvcoe(cse), bpit(cse) Guys please tell me which is best?",POSITIVE,0.7579
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mdhk3c/bpit_it_kitne_tak_gayi_sliding_mein/,BPIT IT KITNE TAK GAYI SLIDING MEIN.?,NEUTRAL,0.0
-Reddit,https://www.reddit.com/r/IPUniversity/comments/1mczbak/mujhe_bpit_cse_ds_mila_tha_toh_fir_maine_kuch/,Mujhe bpit cse ds mila tha toh fir maine kuch react Kiya nhi tha(was waiting for mhtcet) ab aaj waps login krke dekh rha hu toh no seat alloted dikha rha h why?? Ab next allotment ya spot kab hai?,NEGATIVE,-0.4098
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Popular Courses<br>    - [B.Sc.,POSITIVE,0.4215
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"BPIT Delhi Reviews on Placements, Faculty & Facilities",NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,BPIT Delhi    Students Ratings & Reviews,NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,How to reach Bhagwan Parshuram Institute of Technology? lightscameracampus transport metro - YouTube,NEUTRAL,0.0258
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"If playback doesn't begin shortly, try restarting your device.",NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,An error occurred while retrieving sharing information.,NEUTRAL,0.0258
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Not just studies! Fun clubs & societies ...,NEGATIVE,-0.4577
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,📈 BPIT Placement Trends: What’s Changin...,NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Lateral entry at BPIT: Everything you ne...,NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Filter & read reviews that mention these keywords,NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,3Placements4Infrastructure3Faculty3Crowd & Campus Life4Value for Money,NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"Good location, supportive faculty but infrastructure needs improvement.",POSITIVE,0.7615
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Placements: Placements for the B.Tech IT course at BPIT are average but consistent.,NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Around 70 percent of students from the IT batch get placed every year through on campus drives.,NEUTRAL,0.0
-Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"The highest on campus package has gone up to 27 LPA, offered by Justpay.",NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,Bhaiya kya mai aapse direct contact krr skta hu,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,bhai ac hai bvocr aur bpit mai ?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,bvcoe mein btech m uniform hai?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,"Sir registration kar rakhi h , fees payment bhi kar di thi choice filling karna reh gya tha round 2 se pehle chance milta h choice filling karne ka ? For btech",POSITIVE,0.25
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,Bvcoe me gender ratio jada hai kya btech me?Or strictness bpit or bvcoe kisme jada hai?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,vips tc b tech video fast and date when will video will upload ???,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,vips tc b tech video fast  and please tell date when will video upload,POSITIVE,0.3182
-YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,vips tc b tech video fast,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Ayush Bhai for Direct admission,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Which is best gl bajaj or bpit for cse,POSITIVE,0.7579
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bhai pls  ab aap sach boldo ji 🥲🥲🥲,POSITIVE,0.0772
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Management quota sa kaisa admission hoga,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bhai college kab se start hota hh BPIT,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bhai college kab se start jota hh,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bro branch upgradation ka kya procedure hai ?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bro kal mere ko bhi isi mai seat allot Hui hai,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Is it located in the outer side of delhi??,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bhaiya fee jyada nhi bata di aapne,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,It in bpit or ece in mait?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bhaiya muzhe MAIT main cse mil rhi hai aur HBTU kanpur main bhi cse mil rhi hai main up se hu agra se to bhaiya please batado konsa college shi rahega mere kiye ya fr ek video banado comparison main in dono ki aur ek aur chij batana ki scholarship ke kaha chances rahenge muzhe jyada kyuki meri annual income less than 1 lakh hai to bhaiya please batado ❤❤❤❤❤❤❤❤❤❤❤❤,POSITIVE,0.9957
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Councelling forms kb ayge???,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Sliding round m kitni cut off jygi??,NEGATIVE,-0.3527
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Sliding ki kitni cutoff h?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,"Bhaiya meri rank 113095 h (Delhi quota), general
-Kya merko cse/it milegi kisi ache ipu college me kisi bhi round me😢😢😢😢",NEGATIVE,-0.9325
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,"Bhaiya meri rank 129k hai general Delhi se
-
-Mujhe kis college me admission Lena chahiye?",NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Shaiya mein bhaiya ap gunda ho 😂,POSITIVE,0.4404
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,"Bhaiya suggest mein best college for this please 
-State: bihar
-Category: obc ncl
-Percentile: 90.6
-Crl: 1,06,321
-Obc rank: 33086",POSITIVE,0.7798
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Bhaiya Bpit cs/it vs Mait eee???,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=l3iwTs51wF0,Pls reply bhaiya,POSITIVE,0.0772
-YouTube,https://www.youtube.com/watch?v=TbR-jRi3j4I,Good review.......,POSITIVE,0.4404
-YouTube,https://www.youtube.com/watch?v=GF7RV4YSECk,Bhaiya Boys Hostel hai kya??,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=GF7RV4YSECk,Bhaiya admission k liye any exam dena parega kya?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=DhsqPxPDrJU,Bhaiya sab bolte h internal marks nhi dete hain isme.. Baat Sahi h kya???,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=DhsqPxPDrJU,"Bhai 133k rank par ,bpit me cse leni chaiye ya bvcoe ki , mujhe thoda chill mahol chaiye plz tell , iss rank par mujhe mait me itmil jayegi spot round tk ?????",POSITIVE,0.3094
-YouTube,https://www.youtube.com/watch?v=DhsqPxPDrJU,Bhai bina jee ke batao koi college,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=DhsqPxPDrJU,mat lena internal marks bhot kam dete hain aur placements ki reality kuch aur hai,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=DhsqPxPDrJU,"bhai admission ke time pe 96,000 jama karne hai ya 1 lakh 70 hazaar please batado gharwale bhaut confuse hai...",POSITIVE,0.1027
-YouTube,https://www.youtube.com/watch?v=DhsqPxPDrJU,Cutoff please 🥺🙏,POSITIVE,0.3182
-YouTube,https://www.youtube.com/watch?v=FXPnPYo04a8,88.35 percentile pr cse mil jaye ga bpit mai,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=FXPnPYo04a8,Bhai ka suruaat wala dilog badhiya hai aram se hostel life discuss kar rahe honge,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=FXPnPYo04a8,Bhai without jee mains ki rank ke bina Mtlb donation se admission hate hai kya plz reply,NEGATIVE,-0.5267
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,i got 89% delhi home state gen will i get cse bpit or bvcoe?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,"Didi ek question hai
-Main ews category me aata hunnn...
-Aur mereko 91...92 percentile aa rhe h toh kya mereko cse mil jyega?",NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Didi I got DIAS for mba in 2nd spot round so is bpit better than dias in placement p.o.v and everything else ?,POSITIVE,0.4877
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Is bpit worthit as I chose bpit IT over bvcoe IT,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,"Didi I got CS in BPIT, Should I prefer MAIT or any Other college in Ipu spot 2 
-According to you what choices should I fill",NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,ADGITM AIMl vs BPIT it,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Bpit eee review and bvcoe instrumental control enjeeanring,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Didi BVCOE vs BPIT for placement,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,BPIT(IT) vs VIPS(AI & ML)????,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Didi i just got bpit cse ds,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Can u please tell me that bpit offering b pharma this year or not please reply soon,POSITIVE,0.0869
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Keep Going guys,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=4ETHPEfiZ0o,Please create such a detail video of VIPS,POSITIVE,0.5267
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bhai maine management quota se lia hai admission. College mein jee percentile to nhi puchte na? Pls tell thodi anxiety hori hai jane se phle,NEGATIVE,-0.1027
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,which is better vit bhopal or bpit (cse),POSITIVE,0.4404
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Mera 1010 rank aya h mba ipu cet me admission ho skta h yahan?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bteach ke liye kaisa h,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Mba first year ki fees kya hai maye admission le rha please btayiye,POSITIVE,0.3182
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,How is the placement here for mba?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,bhai bpit ki classrooms mai AC laga hua hai na ??,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Informative video!! Bro one thing to ask u about for pursuing BBA from BPIT what's ur opinion.. Or  better option JIMS SEC-5 ROHINI..  Confused coz I got allotment in BPIT but i'm not sure about BBA overall review and placements although no doubt for engineering toh its outstanding.. Kindly guide me bro,POSITIVE,0.917
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Btech kane ke liye kya requirement hai,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Auditorium nhi h ky yaha?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,does bpit has uniform?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Ye government college hai?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bbai ece ka liya kaisa ha??,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,"Brother 650 rank in IPUCET mba,addmission mil jaega ??",NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Ac h classrooms mein?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bhaiya college mein NCC aur Kabaddi team hai???,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,mba k liye kesa h ye clg?,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,ur teachers broooo....so poliet,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bhai plz tell about direct admission fee,POSITIVE,0.0772
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bro kitni rank tk me mba walo ka admission hojata h i got 1093,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Yaha pr admission process kya h,NEUTRAL,0.0
-YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,What is the average package of mba here,NEUTRAL,0.0
 Collegedunia,https://collegedunia.com/reviews,Find Reviews for over 25000 colleges,NEUTRAL,0.0
 Collegedunia,https://collegedunia.com/reviews,As i said earlier all the education system in the college is very good i this college and i wil also exaplain clearly below,POSITIVE,0.7089
 Collegedunia,https://collegedunia.com/reviews,The courses are very well designed to make the student a good engineer,POSITIVE,0.6478
@@ -382,13 +199,175 @@ Collegedunia,https://collegedunia.com/college/13032-bhagwan-parshuram-institute-
 Collegedunia,https://collegedunia.com/college/13032-bhagwan-parshuram-institute-of-technology-bpit-new-delhi/reviews,Curriculum is easy to understand and simple to study,POSITIVE,0.4404
 Collegedunia,https://collegedunia.com/college/13032-bhagwan-parshuram-institute-of-technology-bpit-new-delhi/reviews,Though there are topics and subjects that doesn't have a direct significance on our course like The indian Constitution and Technical writing..,POSITIVE,0.5574
 Collegedunia,https://collegedunia.com/college/13032-bhagwan-parshuram-institute-of-technology-bpit-new-delhi/reviews,How likely are you to recommend collegedunia.com to a friend or a colleague?,POSITIVE,0.6908
+YouTube,https://www.youtube.com/watch?v=5k-d5ygc27o,Bhai direct admission possible hai kya ?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=5k-d5ygc27o,bro meri rank 1.3 lakh hai mujhe kisme kya kya mil skta hai homestate up se obc category se hu please bro reply me its humble request🙏🙏🙏,POSITIVE,0.3182
+YouTube,https://www.youtube.com/watch?v=GF7RV4YSECk,Rank how much required,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=GF7RV4YSECk,Bhaiya Boys Hostel hai kya??,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=GF7RV4YSECk,Bhaiya admission k liye any exam dena parega kya?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,Bhaiya kya mai aapse direct contact krr skta hu,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,bhai ac hai bvocr aur bpit mai ?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,bvcoe mein btech m uniform hai?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,"Sir registration kar rakhi h , fees payment bhi kar di thi choice filling karna reh gya tha round 2 se pehle chance milta h choice filling karne ka ? For btech",POSITIVE,0.25
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,Bvcoe me gender ratio jada hai kya btech me?Or strictness bpit or bvcoe kisme jada hai?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,vips tc b tech video fast and date when will video will upload ???,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,vips tc b tech video fast  and please tell date when will video upload,POSITIVE,0.3182
+YouTube,https://www.youtube.com/watch?v=Ho4GFLsRyY4,vips tc b tech video fast,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=TbR-jRi3j4I,Good review.......,POSITIVE,0.4404
+YouTube,https://www.youtube.com/watch?v=FXPnPYo04a8,88.35 percentile pr cse mil jaye ga bpit mai,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXPnPYo04a8,Bhai ka suruaat wala dilog badhiya hai aram se hostel life discuss kar rahe honge,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXPnPYo04a8,Bhai without jee mains ki rank ke bina Mtlb donation se admission hate hai kya plz reply,NEGATIVE,-0.5267
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,Maire pas it branch hai konsi achi hogi bvcoe it or bpit it . Bvcoe ka campus bhi thora acha hai bpit se overall har chize dekhte hue bata do yar😊,POSITIVE,0.7184
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,177 k obc cse it mil jyegii ?? Outside delhi??,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,"Sir ji ,  padai and faculties Kahan acchi hai BPIT or BVCOE",NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,"Can u pls give source if wat u r saying because on college prabesh website
+BPIT -MEDIAN-4.50 LPA
+BVCOE-MEDIAN- 6.50LPA
+You also use college pravesh website to show ranks and cuttoffs in your videos that's why me keh rha hu
+PLS CORRECT ME IF I AM WRONG AND PLS TELL THE SOURCE TOO BHAIYA 🙏🙏🙏🙏🙏🙏🙏🙏🙏",NEGATIVE,-0.1197
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,I get 117 k rank in jee mains general inside delhi can i get bpit cse plz reply,POSITIVE,0.0772
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,Mujhe konsa dilwaoge 😂,POSITIVE,0.4404
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,"I am from BPIT CSE , BPIT CSE IS MORE BETTER THEN BVPCOE in term of placement and every things",POSITIVE,0.6867
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,Akhilesh das pr bhi banao,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,Bhaiya obc ncl rank 1lakh aur crl 2.9 lakh kya mil sakta hai mujhe best please bata dijye in ipu,POSITIVE,0.7579
+YouTube,https://www.youtube.com/watch?v=i1reU8cShU4,Bhaiya mait. Par banao,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,Sir maine 10+2 up board se pass kiya hai 62% hai to addmission ho payega 😢,NEGATIVE,-0.4767
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,Placement wise kesa h college ?,POSITIVE,0.4767
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,Get admission kase krata hai,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,"😢😢 kitne paise khilaya hai BPIT walo ne apko
+170k hai fee first year ka
+150hai fee 2,3,4 year ka
+Aur jo class dekhya hai vo bs bba walo ka hai or AC bhi 
+Bs senior achche hai or kuch society bhi  warna ye wahiyat college hota",NEGATIVE,-0.7351
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,"Sir am complete my diploma in ME , am eligible to admission in CSE through lateral entry?",NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,Hostel hai ki ni,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,Admission close ho gye kya bpit ke,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,sir jee me 85 %ile aaya hai ipu m kya kya mil sakta hai ??,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,Sir cbse me 80 aaye hai jee nhi diya kya admission ho skta hai pls reply,POSITIVE,0.0772
+YouTube,https://www.youtube.com/watch?v=FXQielF3mno,How to get admission through management quota?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bhai maine management quota se lia hai admission. College mein jee percentile to nhi puchte na? Pls tell thodi anxiety hori hai jane se phle,NEGATIVE,-0.1027
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,which is better vit bhopal or bpit (cse),POSITIVE,0.4404
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Mera 1010 rank aya h mba ipu cet me admission ho skta h yahan?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bteach ke liye kaisa h,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Mba first year ki fees kya hai maye admission le rha please btayiye,POSITIVE,0.3182
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,How is the placement here for mba?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,bhai bpit ki classrooms mai AC laga hua hai na ??,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Informative video!! Bro one thing to ask u about for pursuing BBA from BPIT what's ur opinion.. Or  better option JIMS SEC-5 ROHINI..  Confused coz I got allotment in BPIT but i'm not sure about BBA overall review and placements although no doubt for engineering toh its outstanding.. Kindly guide me bro,POSITIVE,0.917
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Btech kane ke liye kya requirement hai,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Auditorium nhi h ky yaha?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,does bpit has uniform?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Ye government college hai?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bbai ece ka liya kaisa ha??,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,"Brother 650 rank in IPUCET mba,addmission mil jaega ??",NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Ac h classrooms mein?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bhaiya college mein NCC aur Kabaddi team hai???,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,mba k liye kesa h ye clg?,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,ur teachers broooo....so poliet,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bhai plz tell about direct admission fee,POSITIVE,0.0772
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Bro kitni rank tk me mba walo ka admission hojata h i got 1093,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,Yaha pr admission process kya h,NEUTRAL,0.0
+YouTube,https://www.youtube.com/watch?v=9byEUWhZ0jA,What is the average package of mba here,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1rmyn22/bpit_worst_clg/,"BPIT worst clg Bhai mat ana sabse bekar clg h
+Campus vaise hi chhota h bhadwo n aur chota kr diya construction k liye
+Classes m ac nai h inpe existing cheeze to acchi hoti nai h nayi banne chale h 
+Attendance teacher chill nai h itni aur dean  marks kat leta h sala
+Aur ye jo maths ki hod h anurima ye sabse jydada bkl h 
+Na campus accha h aur rhi bat placement ki vo to lagbhag sare ipu ki ek jaisi h isse accha vips lelo 
+Priority rakho
+Mait msit bvcoe vips bpit",NEGATIVE,-0.6249
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mub96b/result_agaya_i_got_bpit/,Result agaya I got bpit,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1lhzkdq/bpit_or_bvcoe/,BPIT or BVCOE?? 💔💩😭✌️ Which is better BPIT or BVCOE pls tell me which to place above I can get ece in both,POSITIVE,0.3736
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1l1oej7/should_i_go_for_bpit_it_85k_rank/,"Should I go for BPIT IT @ 85k rank? CRL- 85k
+
+OUTSIDE DELHI OBC(26k rank)
+
+I analyzed last few years cutoff and realized I am getting BPIT IT in round 3, should I go for it? I want cs related branch only. Or should I participate in spot round but its so much risky for me, other option that i have rn is KIET(cse), I am so much confused as i cant see any other option, pls guide me should i take bpit or like what th am i suppose to do, do i have any other options?? iam already a dropper. I am also getting JAYPEE but i wont take that bcz its not worth the fee in my opinion n also i talked to waha ke seniors and jaypee is strict asf, so apart from jaypee what should i do?",NEGATIVE,-0.6242
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9xn9d/is_bpit_good_for_ece/,Is bpit good for ece,POSITIVE,0.4404
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1kc0pos/bpit_ece_placement_and_all_reviews_up_domicile/,Bpit ece ? Placement and all reviews? UP domicile,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1sblq0a/what_is_4_year_btech_fees_for_bpit/,What is 4 year btech fees for BPIT ? Title,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m7xtnp/hi_can_anyone_share_honest_opinions_on_bpit_delhi/,"Hi! Can anyone share honest opinions on BPIT Delhi? How are the academics, placements (esp. for CSE), faculty, crowd, campus life, societies, and infrastructure? Any red flags or things to be aware of? Would really appreciate your help. Thanks! 🙏",POSITIVE,0.938
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1sm8s0n/bpit_doubt/,bpit doubt hows bpit cse ?? can i expect placements or im gonna sit berojgar at the end of my fourth year,NEGATIVE,-0.4329
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1me6pyl/who_are_coming_to_bpit_on_4th_of_august/,"Who are coming to BPIT on 4th of August Hello my fellows I am very excited to go to college and hope that you all will also be, also Mention in the comments which branches you all got and let's meet at 8:50 at the gate on 4th August",POSITIVE,0.6801
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1pqhj4w/ye_msit_ke_toilets_are_terrible_im_from_bpit_aur/,"ye MSIT ke toilets are TERRIBLE. im from bpit aur yaha centre mila hai. yaha na toh health phoset hai na bidet, and the washroom looks as if no ones been there for a century. koi bacha jaata bhi hai kya?",NEGATIVE,-0.7213
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1jxmk1t/bvcoebpit_cse_or_it/,Bvcoe/BPIT (CSE or IT) Is it possible to get IT or Cse in BVCOE OR BPIT at around 3 lakh-3.5 lakh round in the spot rounds? 😭,NEGATIVE,-0.4767
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1k4fmr9/guys_make_this_clear_n_crystal_for_your/,Guys make this clear n crystal for your councelling preference.(Tech Branch only) Usict&gt;mait&gt;msit&gt;usar&gt;bpit&gt;bvcoe&gt;Vips&gt;gtbit&gt;adgips.,POSITIVE,0.4588
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1smw9xi/bvcoe_it_vs_bpit_it/,Bvcoe - IT VS Bpit -IT,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m4e3ob/vipsadgipsgtbit_cse_vs_bvcoebpit_ece/,VIPS/ADGIPS/GTBIT CSE vs BVCOE/BPIT ECE ???? Pls btado koi,POSITIVE,0.3094
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1kujyiq/gtbit_cse_or_bpit_ece_or_bvcoe_ece_or_mait_eee/,"Gtbit cse or BPIT ece or BVCOE ece or MAIT eee. Vv confused. Which one would be better?
+(Ghar ke sbse paas is bpit then mait.)",POSITIVE,0.1531
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mf1ate/bpit_it_gtbit_cse_gtbit_cse_ai_gtbit_it_gtbit_cse/,"BPIT IT, GTBIT CSE, GTBIT CSE AI, GTBIT IT, GTBIT CSE DS ko rank kardo for spot choice filling....",NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1silrzt/someone_from_bpit_it_2027_batch/,"Someone from BPIT IT 2027 batch? Msg me me, had to ask something",NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1lucjj7/how_much_ive_to_pay_for_management_quote_to_get/,How much I've to pay for management quote to get admission in BPIT OR MSIT? For btech in CSE,NEGATIVE,-0.1027
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1pmz87p/bpit_me_phone_leke_ja_sakte_hai_chori_to_nhi_hoga/,BPIT me Phone leke ja sakte hai. Chori to nhi hoga? Jaldi bta do please For Endsem Exam,POSITIVE,0.3182
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1lf86x2/drop_leke_bhi_bpit_mein_cse_milegaa/,Drop leke bhi bpit mein cse milegaa🙂‍↔️😂😂😂🤣🤣 Koi btaa do placements kesi hongii🙂‍↔️🙂‍↔️🙂‍↔️😌,POSITIVE,0.9762
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mfrhic/very_genuinely_batado_25_lakh_rank_mein_spot_1/,Very genuinely batado 2.5 lakh rank mein spot 1 aur 2 mein kya mil sakta hai at GTBIT BVCOE and BPIT (outside delhi general),NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mcyyi9/bpit_fees/,BPIT FEES Do we have to pay rest of the fees through bpit india website?,NEGATIVE,-0.1027
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1ecs82s/bpit_freshers_assemble/,BPIT Freshers assemble!! Bhai stream comment krdo jo bhi BPIT ja rha hai and he/she is sure. Jaan pehchaan banaate hai thodi.,POSITIVE,0.4374
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9s0ev/bpit/,BPIT Kisi ko BPIT mai 2 lac ke Around it mili hai??,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1r8f2nt/bpit_sports_meet/,"Bpit Sports meet bpit ka sports meet ha 23 sa start ha 27 tak toh us ka bich me normal class previous jasa University ka sport meet tah hasa cancelled hogi ya nahi 
+
+ confirm or deny?!?!?!!!",POSITIVE,0.4781
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m33sns/bpit_cse_or_jaypee_noida_cse/,BPIT CSE OR JAYPEE NOIDA CSE Please guide me,POSITIVE,0.3182
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m4fo8j/bpit_cse_or_mait_it/,"BPIT CSE or MAIT IT I got bpit cse in first round (and second too) , now i have option 
+Maybe i can get mait it in third round
+Should i prefer college over branch?",NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9qsps/these_are_document_list_for_gtb_4_centenary_and/,These are document list for GTB 4 Centenary and BPIT. BPIT- https://acrobat.adobe.com/id/urn:aaid:sc:AP:406d8ddd-97d0-4bc7-9dd7-961dbfd8c8ef,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1lc3w50/bpit_vs_bvp_pune_cse_in_both/,"BPIT vs BVP pune (cse in both) Boht zyada cofusion hai  samajh nhi ara what to choose.
+BPIT ki cse average 2 lacs zyada hai but college life suffer kregi 
+Pls help in decision making. 
+I don't want placements or college life to suffer.",NEGATIVE,-0.7804
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mekd4x/gtbit_aur_bpit_ke_andar_attendance_ka_kya_scene/,GTBIT AUR BPIT KE ANDAR ATTENDANCE KA KYA SCENE HAI?? AUR KIRNE GHANTE CLASS HOTI HAI PER DAY...??,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1md2p42/bpit_eee_wala_h_koi/,BPIT EEE WALA H KOI?,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1miihb2/kiet_autonomous_aktu_cse_vs_bpit_ipu/,"KIET {autonomous, AKTU} cse vs BPIT {IPU} Please tell with reasons",POSITIVE,0.3182
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1l0u66u/bhyi_sab_log_dhyan_se_suno_ipu_me_12_se_13_lakh/,Bhyi sab log dhyan se suno ipu me 12 se 13 lakh lgane ece ya eee me college like bpit bvcoe msit me ek outside delhi walle ko ( syd scholarship bhi nhi h ) shi rhega benefit h,POSITIVE,0.6705
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1ki7142/on_yt_video_they_say_maitmsitbpit_when_search_for/,on yt video they say MAIT&gt;MSIT&gt;BPIT when search for placement on internet it is BPIT&gt;MSIT&gt;MAIT what is truth? some senior explain! i am outside delhi general male 78K rank ! if any suggestion then please give!!!,POSITIVE,0.6973
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1kv6eqj/bpit_bvcoe_and_vips_students/,"BPIT, BVCOE and VIPS students- mostly interested in negatives cuz positives toh tier 3 college mai kya hi honge
+
+Assignments wagera bohot zyada milte hai kya?
+
+how's the overall strictness?
+
+do you get time to have fun + self study or internships?
+
+I can get admission in VIPS CSE and ECE in the other two, so I'd like to know your thoughts
+
+  
+I'll most likely try to crack off campus placements and internships toh uss hisaab se chahiye",POSITIVE,0.9139
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mpawia/seat_vacancy_cse_in_bvcoe_bpit/,Seat vacancy CSE in BVCOE BPIT Bhai kisi ko idea hai spot 2 ke liye seats hai ki bhi nhi bvcoe bpit cse/it me,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mgcwli/bhai_meri_8_rank_h_mera_ko_koi_bpit_vips_mil/,"Bhai Meri 8 rank h mera ko koi Bpit vips mil sakta hai IT, ECE",NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mc6pkh/do_i_have_any_chance_to_get_into_bvcoebpit_it/,Do I have any chance to get into bvcoe/bpit IT branch through management quota? I have got 83% aggregate in class 12. I already have a seat in GTB4cec through my jee rank which is very poor.,NEGATIVE,-0.3384
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m4wphl/does_amazon_visit_bvcoe_for_on_campus_hiring_like/,Does amazon visit bvcoe for on campus hiring? Like it does visit bpit afaik,POSITIVE,0.4939
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1n44z81/kiet_ece_vs_bpitbvoce_ece/,KIET ECE VS BPIT/BVOCE ECE ? HELP,POSITIVE,0.5319
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1mky6r3/bpit_it_w_or_l/,BPIT IT W or L At 2.3 lakh rank hs general is bpit it worth it?,POSITIVE,0.6841
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1k65qua/bvcoebpit_ece_vs_adgitm_cse/,BVCOE/BPIT ECE V/S ADGITM CSE Asking for a friend (crl:- 2lakh HS:- DELHI ) very less chances that he will get IT in any of those,POSITIVE,0.6105
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1p8qz4j/how_to_reach_bpit/,How to reach BPIT ? For Endsem exam,NEUTRAL,0.0258
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1p8yjx2/bpit/,Bpit How to reach from rithala metro station,NEUTRAL,0.0258
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1pa9wf9/is_there_parking_inside_bpit_for_bike_during_exam/,Is there parking inside bpit for bike during exam hours?,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1p9ewb6/bpit_kese_jana/,Bpit kese jana? Same,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1p8rehx/bpit_nearest_metrocan_i_park_my_bike_inside/,Bpit nearest metro?Can I park my bike inside college during exam??,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1ktl9f9/adgitm_cse_or_bpit_it/,Adgitm Cse or Bpit IT ??,NEUTRAL,0.0
+Reddit,https://www.reddit.com/r/IPUniversity/comments/1m9piyx/would_u_rather_prefer_bpit_cse_or_mait_it/,Would u rather prefer bpit cse or mait IT??,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Popular Courses<br>    - [B.Sc.,POSITIVE,0.4215
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"BPIT Delhi Reviews on Placements, Faculty & Facilities",NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,BPIT Delhi    Students Ratings & Reviews,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,How to reach Bhagwan Parshuram Institute of Technology? lightscameracampus transport metro - YouTube,NEUTRAL,0.0258
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Not just studies! Fun clubs & societies ...,NEGATIVE,-0.4577
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,📈 BPIT Placement Trends: What’s Changin...,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Lateral entry at BPIT: Everything you ne...,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Filter & read reviews that mention these keywords,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,3Placements4Infrastructure3Faculty3Crowd & Campus Life4Value for Money,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"Good location, supportive faculty but infrastructure needs improvement.",POSITIVE,0.7615
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Placements: Placements for the B.Tech IT course at BPIT are average but consistent.,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,Around 70 percent of students from the IT batch get placed every year through on campus drives.,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"The highest on campus package has gone up to 27 LPA, offered by Justpay.",NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,While the average package ranges between 4 LPA and 5 LPA.,NEUTRAL,0.0
+Shiksha,https://www.shiksha.com/college/bhagwan-parshuram-institute-of-technology-rohini-delhi-49447/reviews,"The lowest package is around 3 LPA, mostly offered by service based companies.",NEGATIVE,-0.3818
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,"BPIT Delhi Reviews on Infrastructure, Campus, Placement, Facilities & Faculty",NEUTRAL,0.0
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Electrical and Electronics Engineering,NEUTRAL,0.0
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Electronics and Communication Engineering,NEUTRAL,0.0
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Data Science with Artificial Intelligence,POSITIVE,0.4767
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Among top 100 Universities Globally in the Times Higher Education (THE) Interdisciplinary Science Rankings 2026,POSITIVE,0.2023
-Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Mark presence in the Modern Architectural field with Bachelor of Architecture \| Highest CTC : 70 LPA \| Accepts NATA Score,POSITIVE,0.3182
-Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Final Application Deadline: 23rd March \| NAAC A++ Accredited \| Accorded institution of Eminence by Govt. of India \| NIRF Rank 3,NEUTRAL,0.0
+Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,"Last Date to Apply: 29th April \| Ranked 43 among Engineering colleges in India by NIRF \| Highest Package 1.3 CR , 100% Placements",NEUTRAL,0.0
+Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Last Date to Apply: 26th April \| NAAC A++ Accredited \| NIRF Rank 3,NEUTRAL,0.0
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,AllInfrastructureAcademicsPlacementsValue for moneyCampus life,NEUTRAL,0.0
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,this is not a bad college afterall.Guidance is great,POSITIVE,0.7876
 Careers360,https://www.careers360.com/colleges/bhagwan-parshuram-institute-of-technology-delhi/reviews,Posted on 24 Jul'25 byAnonymous,NEUTRAL,0.0
