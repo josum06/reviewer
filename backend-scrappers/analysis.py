@@ -2,7 +2,11 @@ import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from transformers import pipeline
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.lsa import LsaSummarizer
+import torch
 import os
 
 from reddit import fetch_reddit_data_json
@@ -11,25 +15,66 @@ from shiksha import fetch_shiksha_data
 from collegedunia import fetch_collegedunia_data
 from youtube import fetch_youtube_data
 
-analyzer = SentimentIntensityAnalyzer()
+# ── LOAD MODEL ────────────────────────────────────────────────
+print("[MODEL] Loading XLM-RoBERTa...")
+sentiment_pipeline = pipeline(
+    "sentiment-analysis",
+    model="cardiffnlp/twitter-xlm-roberta-base-sentiment",
+    device=0 if torch.cuda.is_available() else -1,
+    truncation=True,
+    max_length=512
+)
+print("[MODEL] ✅ Ready")
 
-# ── SENTIMENT FUNCTION 
-def analyse(text):
-    scores = analyzer.polarity_scores(str(text))
-    compound = scores['compound']
-    if compound >= 0.05:
-        label = "POSITIVE"
-    elif compound <= -0.05:
-        label = "NEGATIVE"
-    else:
-        label = "NEUTRAL"
-    return label, compound
+LABEL_MAP = {
+    "positive": "POSITIVE",
+    "negative": "NEGATIVE",
+    "neutral":  "NEUTRAL"
+}
+
+# ── SENTIMENT FUNCTION ────────────────────────────────────────
+def analyse(text: str):
+    text = str(text).strip()
+    if not text:
+        return "NEUTRAL", 0.0
+    try:
+        result = sentiment_pipeline(text[:512])[0]
+        label = LABEL_MAP.get(result['label'].lower(), "NEUTRAL")
+        if label == "POSITIVE":
+            signed_score = round(result['score'], 4)
+        elif label == "NEGATIVE":
+            signed_score = round(-result['score'], 4)
+        else:
+            signed_score = 0.0
+        return label, signed_score
+    except Exception as e:
+        print(f"[ANALYSE] Error: {e}")
+        return "NEUTRAL", 0.0
 
 
-# ── REDDIT 
+# ── TRANSCRIPT SUMMARIZER ─────────────────────────────────────
+def summarize_transcript(text: str) -> str:
+    """
+    Summarize transcript using LSA (Latent Semantic Analysis).
+    Picks 5 most statistically important sentences.
+    Works for English, Hindi, Hinglish — no keywords needed.
+    """
+    try:
+        parser = PlaintextParser.from_string(text, Tokenizer("english"))
+        summarizer = LsaSummarizer()
+        summary_sentences = summarizer(parser.document, sentences_count=5)
+        summary = ' '.join(str(s) for s in summary_sentences)
+        print(f"[SUMMARY] ✅ {len(text)} chars → {len(summary)} chars")
+        return summary if summary else text[:512]
+    except Exception as e:
+        print(f"[SUMMARY] ⚠️ Failed: {e} — using truncated text")
+        return text[:512]
+
+
+# ── REDDIT ────────────────────────────────────────────────────
 def get_reddit():
     print("\n[Reddit] Fetching...")
-    raw = fetch_reddit_data_json(max_posts=50)
+    raw = fetch_reddit_data_json(max_posts=200)
     results = []
     for item in raw:
         label, score = analyse(item['text'])
@@ -44,10 +89,10 @@ def get_reddit():
     return results
 
 
-# ── CAREERS360 
+# ── CAREERS360 ────────────────────────────────────────────────
 def get_careers360():
     print("\n[Careers360] Fetching...")
-    raw = fetch_careers360_data("BPIT", max_results=2, max_reviews=15, cycles=1)
+    raw = fetch_careers360_data("BPIT", max_results=1, max_reviews=200, cycles=12)
     results = []
     for item in raw:
         url = item.get('source_url', '')
@@ -66,10 +111,10 @@ def get_careers360():
     return results
 
 
-# ── SHIKSHA 
+# ── SHIKSHA ───────────────────────────────────────────────────
 def get_shiksha():
     print("\n[Shiksha] Fetching...")
-    raw = fetch_shiksha_data("BPIT", max_results=2, max_reviews=15, cycles=1)
+    raw = fetch_shiksha_data("BPIT", max_results=1, max_reviews=520, cycles=12)
     results = []
     for item in raw:
         url = item.get('source_url', '')
@@ -88,10 +133,10 @@ def get_shiksha():
     return results
 
 
-# ── COLLEGEDUNIA 
+# ── COLLEGEDUNIA ──────────────────────────────────────────────
 def get_collegedunia():
     print("\n[Collegedunia] Fetching...")
-    raw = fetch_collegedunia_data("BPIT", max_results=2, max_reviews=100, cycles=10)
+    raw = fetch_collegedunia_data("BPIT", max_results=1, max_reviews=200, cycles=12)
     results = []
     for item in raw:
         url = item.get('source_url', '')
@@ -110,7 +155,7 @@ def get_collegedunia():
     return results
 
 
-# ── YOUTUBE 
+# ── YOUTUBE ───────────────────────────────────────────────────
 YOUTUBE_SPAM = [
     'http', 'https', 'wa.me', 'whatsapp', 'click here',
     'jumpstart', 'subscribe', 't.me', 'telegram', 'instagram.com',
@@ -129,23 +174,18 @@ def get_youtube():
     seen = set()
     for item in raw:
         url = item.get('source_url', '')
+
+        # ── Comments ──────────────────────────────────────
         for comment in item.get('comments', []):
             comment = comment.strip()
-
-            # Skip empty or too short
             if not comment or len(comment) < 15:
                 continue
-
-            # Skip spam/junk
             lower = comment.lower()
             if any(spam in lower for spam in YOUTUBE_SPAM):
                 continue
-
-            # Skip duplicates
             if comment in seen:
                 continue
             seen.add(comment)
-
             label, score = analyse(comment)
             results.append({
                 "source":    "YouTube",
@@ -154,11 +194,26 @@ def get_youtube():
                 "sentiment": label,
                 "score":     round(score, 4)
             })
-    print(f"[YouTube] {len(results)} comments fetched")
+
+        # ── Transcript ────────────────────────────────────
+        transcript = item.get('transcript', '')
+        if transcript and len(transcript.strip()) > 100:
+            print(f"[YouTube] 📝 Summarizing transcript ({len(transcript)} chars)...")
+            summary = summarize_transcript(transcript)
+            label, score = analyse(summary)
+            results.append({
+                "source":    "YouTube",
+                "link":      url,
+                "text":      f"[TRANSCRIPT SUMMARY] {summary}",
+                "sentiment": label,
+                "score":     round(score, 4)
+            })
+
+    print(f"[YouTube] {len(results)} total (comments + transcript summary)")
     return results
 
 
-# ── MAIN RUN FUNCTION 
+# ── MAIN RUN FUNCTION ─────────────────────────────────────────
 def run_analysis():
     all_results = []
 
@@ -186,6 +241,7 @@ def run_analysis():
         all_results += get_youtube()
     except Exception as e:
         print(f"[YouTube] Error: {e}")
+
     if not all_results:
         print("No data collected from any platform.")
         return pd.DataFrame()
@@ -247,7 +303,8 @@ def run_analysis():
 
     print("\nAll CSVs and charts saved in results/ folder")
     return df
-    
+
+
 if __name__ == '__main__':
     df = run_analysis()
 
