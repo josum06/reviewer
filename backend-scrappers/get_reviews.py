@@ -37,7 +37,7 @@ def is_junk(line: str) -> bool:
     if line.startswith('!'):
         return True
 
-    # UI/nav junk
+ # UI/nav junk
     junk_keywords = [
         'cookie', 'privacy policy', 'terms of use', 'login', 'sign in',
         'sign up', 'register', 'subscribe', 'advertisement', 'follow us',
@@ -52,7 +52,19 @@ def is_junk(line: str) -> bool:
         'compare colleges', 'get free', 'check ranking',
         'view fees', 'admission', 'scholarships', 'cutoff',
         'college predictor', 'exam', 'answer', 'question',
-    ]
+        # Site-specific boilerplate
+        'written by', 'how likely are you to recommend', 'near by colleges',
+        'are you interested in this college', 'choose your course',
+        'trending programs', 'trending specializations', 'detailed books',
+        'all this at the convenience', 'endeavor to keep you informed',
+        'get app, its faster', 'explore reviews at similar',
+        'aside from this, several communications',
+        'if there are number of vacant seats',
+        'view reviews of similar colleges',
+        'we endeavor to keep you',
+        'be/b.tech', 'bba/bms', 'mbbs - bachelor', 'mba/pgdm',
+        'professor, department of',
+    ]                          # ← 4 spaces, closing bracket
     lower = line.lower()
     if any(kw in lower for kw in junk_keywords):
         return True
@@ -92,7 +104,7 @@ def scrape_reviews_firecrawl(url: str, max_reviews: int = 100, cycles: int = 8) 
             formats=["markdown"],
             actions=actions,
             timeout=240000,
-            only_main_content=False
+            only_main_content=True
         )
 
         # ── Parse markdown ────────────────────────────────────
@@ -120,6 +132,16 @@ def scrape_reviews_firecrawl(url: str, max_reviews: int = 100, cycles: int = 8) 
             if not isinstance(r, str):
                 r = str(r)
             cleaned = r.strip()
+
+            # ── Strip HTML tags & entities ────────────────
+            cleaned = re.sub(r'<[^>]+>', ' ', cleaned)      # remove <br>, <p> etc
+            cleaned = re.sub(r'&amp;', '&', cleaned)
+            cleaned = re.sub(r'&lt;', '<', cleaned)
+            cleaned = re.sub(r'&gt;', '>', cleaned)
+            cleaned = re.sub(r'&nbsp;', ' ', cleaned)
+            cleaned = re.sub(r'\s+', ' ', cleaned).strip()  # collapse whitespace
+            # ─────────────────────────────────────────────
+
             cleaned = re.sub(r'\*{1,2}(.*?)\*{1,2}', r'\1', cleaned)
             cleaned = cleaned.strip()
 

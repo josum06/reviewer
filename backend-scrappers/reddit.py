@@ -1,70 +1,13 @@
 import requests
 import time
 
+
 def fetch_post_comments(permalink: str, headers: dict, max_comments: int = 100) -> list[str]:
-    """
-    Fetch all top-level comments + nested replies from a Reddit post.
-    Recursively extracts replies up to any depth.
-    """
+    """Fetch only top-level comments — no nested replies."""
     comments = []
 
-    def extract_comments(children):
-        for child in children:
-            if child.get('kind') == 't1':  # t1 = comment
-                data = child.get('data', {})
-                body = data.get('body', '').strip()
-
-                # Skip deleted/removed/too short
-                if body and len(body) > 15 and body not in ('[deleted]', '[removed]'):
-                    comments.append(body)
-
-                # ── Recurse into replies ──────────────────────
-                replies = data.get('replies', '')
-                if replies and isinstance(replies, dict):
-                    reply_children = replies.get('data', {}).get('children', [])
-                    extract_comments(reply_children)
-
-            elif child.get('kind') == 'more':
-                # "load more comments" token — fetch them too
-                more_ids = child.get('data', {}).get('children', [])
-                if more_ids:
-                    fetch_more_comments(permalink, more_ids[:20], headers, comments)
-
-    def fetch_more_comments(permalink: str, ids: list, headers: dict, comments: list):
-        """Fetch 'load more' comment batches."""
-        try:
-            # Extract post ID from permalink: /r/sub/comments/POST_ID/title/
-            parts = permalink.strip('/').split('/')
-            post_id = parts[3] if len(parts) >= 4 else None
-            if not post_id:
-                return
-
-            ids_str = ','.join(ids[:20])
-            url = f"https://www.reddit.com/api/morechildren.json?link_id=t3_{post_id}&children={ids_str}&api_type=json"
-            resp = requests.get(url, headers=headers, timeout=12)
-
-            if resp.status_code == 429:
-                time.sleep(10)
-                return
-            if resp.status_code != 200:
-                return
-
-            data = resp.json()
-            things = data.get('jquery', [])
-
-            # Parse the weird morechildren response format
-            more_data = data.get('json', {}).get('data', {}).get('things', [])
-            for thing in more_data:
-                if thing.get('kind') == 't1':
-                    body = thing.get('data', {}).get('body', '').strip()
-                    if body and len(body) > 15 and body not in ('[deleted]', '[removed]'):
-                        comments.append(body)
-
-        except Exception as e:
-            print(f"   [REDDIT] More comments error: {e}")
-
     try:
-        url = f"https://www.reddit.com{permalink}.json?limit={max_comments}&sort=top"
+        url = f"https://www.reddit.com{permalink}.json?limit={max_comments}&sort=top&depth=1"
         resp = requests.get(url, headers=headers, timeout=12)
 
         if resp.status_code == 429:
@@ -78,20 +21,22 @@ def fetch_post_comments(permalink: str, headers: dict, max_comments: int = 100) 
 
         data = resp.json()
 
-        # data[0] = post, data[1] = comments
         if len(data) < 2:
             return comments
 
-        comment_children = data[1]['data']['children']
-        extract_comments(comment_children)
+        for child in data[1]['data']['children']:
+            if child.get('kind') != 't1':
+                continue
+            body = child.get('data', {}).get('body', '').strip()
+            if body and len(body) > 15 and body not in ('[deleted]', '[removed]'):
+                comments.append(body)
 
-        print(f"   💬 {len(comments)} comments + replies extracted")
+        print(f"   💬 {len(comments)} top-level comments extracted")
 
     except Exception as e:
         print(f"   [REDDIT] Comment fetch error: {e}")
 
     return comments
-
 
 def fetch_reddit_data_json(max_posts: int = 100) -> list[dict]:
     """Fetches Reddit posts + all comments strictly about BPIT."""
