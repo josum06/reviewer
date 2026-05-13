@@ -13,3 +13,9 @@ google-generativeai
 tavily-python
 pydantic
 python-dotenv
+pymongo
+pandas
+matplotlib
+transformers
+torch
+sumy
