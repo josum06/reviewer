@@ -11,7 +11,16 @@ from analysis import run_analysis, get_reddit, get_careers360, get_shiksha, get_
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+
+# Configure CORS for production
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
+CORS(app, resources={
+    r"/api/*": {
+        "origins": ALLOWED_ORIGINS,
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Authorization"]
+    }
+})
 
 # ── MongoDB Setup ─────────────────────────────────────────────
 MONGO_URI = os.getenv("MONGO_URI")
