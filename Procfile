@@ -1,1 +1,1 @@
-web: cd backend-scrappers && python server.py
+web: bash start.sh
