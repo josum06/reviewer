@@ -8,9 +8,11 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
-from analysis import run_analysis, get_reddit, get_careers360, get_shiksha, get_collegedunia, get_youtube
-
 load_dotenv()
+
+def get_analysis_funcs():
+    from analysis import run_analysis, get_reddit, get_careers360, get_shiksha, get_collegedunia, get_youtube
+    return run_analysis, get_reddit, get_careers360, get_shiksha, get_collegedunia, get_youtube
 
 app = Flask(__name__)
 
@@ -29,8 +31,7 @@ MONGO_URI = os.getenv("MONGO_URI")
 mongo_available = False
 
 try:
-    client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=3000)
-    client.server_info()  # test connection
+   client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=3000)
     db = client["bpit_pulse"]
     reviews_col = db["reviews"]
     mongo_available = True
@@ -87,11 +88,11 @@ def is_data_fresh(platform=None):
 
 # ── Platform map (unchanged) ──────────────────────────────────
 PLATFORM_MAP = {
-    'reddit':       get_reddit,
-    'shiksha':      get_shiksha,
-    'careers360':   get_careers360,
-    'collegedunia': get_collegedunia,
-    'youtube':      get_youtube,
+    'reddit':       lambda: get_analysis_funcs()[1](),
+    'shiksha':      lambda: get_analysis_funcs()[3](),
+    'careers360':   lambda: get_analysis_funcs()[2](),
+    'collegedunia': lambda: get_analysis_funcs()[4](),
+    'youtube':      lambda: get_analysis_funcs()[5](),
 }
 
 
@@ -106,7 +107,7 @@ def get_sentiment():
     # Fallback to CSV
     csv_path = 'results/all_sentiment.csv'
     if not os.path.exists(csv_path):
-        run_analysis()
+        get_analysis_funcs()[0]()
     df = pd.read_csv(csv_path)
     return jsonify(df.to_dict(orient='records'))
 
@@ -137,7 +138,7 @@ def run_all():
         return jsonify(existing)
 
     print("🔄 Data stale or missing — running full scrape...")
-    run_analysis()
+    get_analysis_funcs()[0]()
 
     csv_path = 'results/all_sentiment.csv'
     if os.path.exists(csv_path):
