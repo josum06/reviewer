@@ -1,7 +1,9 @@
+import os
+os.environ['MPLCONFIGDIR'] = '/tmp'
+
 from flask import Flask, jsonify
 from flask_cors import CORS
 import pandas as pd
-import os
 from pymongo import MongoClient
 from datetime import datetime, timedelta
 from dotenv import load_dotenv

@@ -1,7 +1,9 @@
 import pandas as pd
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+def get_plt():
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    return plt
 from transformers import pipeline
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
@@ -286,6 +288,8 @@ def run_analysis():
     sizes  = [len(positive_df), len(negative_df), len(neutral_df)]
     colors = ['#16a34a', '#dc2626', '#d97706']
 
+    plt = get_plt()
+    
     plt.figure(figsize=(6, 6))
     plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
     plt.title('Overall Sentiment Distribution - BPIT')
