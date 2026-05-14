@@ -31,7 +31,8 @@ MONGO_URI = os.getenv("MONGO_URI")
 mongo_available = False
 
 try:
-   client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=3000)
+    client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=3000)
+    client.server_info()
     db = client["bpit_pulse"]
     reviews_col = db["reviews"]
     mongo_available = True
