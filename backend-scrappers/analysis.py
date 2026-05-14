@@ -16,15 +16,22 @@ from collegedunia import fetch_collegedunia_data
 from youtube import fetch_youtube_data
 
 # ── LOAD MODEL ────────────────────────────────────────────────
-print("[MODEL] Loading XLM-RoBERTa...")
-sentiment_pipeline = pipeline(
-    "sentiment-analysis",
-    model="cardiffnlp/twitter-xlm-roberta-base-sentiment",
-    device=0 if torch.cuda.is_available() else -1,
-    truncation=True,
-    max_length=512
-)
-print("[MODEL] ✅ Ready")
+_sentiment_pipeline = None
+
+def get_pipeline():
+    global _sentiment_pipeline
+    if _sentiment_pipeline is None:
+        print("[MODEL] Loading XLM-RoBERTa...")
+        _sentiment_pipeline = pipeline(
+            "sentiment-analysis",
+            model="cardiffnlp/twitter-xlm-roberta-base-sentiment",
+            device=0 if torch.cuda.is_available() else -1,
+            truncation=True,
+            max_length=512
+        )
+        print("[MODEL] ✅ Ready")
+    return _sentiment_pipeline
+
 
 LABEL_MAP = {
     "positive": "POSITIVE",
@@ -38,7 +45,7 @@ def analyse(text: str):
     if not text:
         return "NEUTRAL", 0.0
     try:
-        result = sentiment_pipeline(text[:512])[0]
+        result = get_pipeline()(text[:512])[0]
         label = LABEL_MAP.get(result['label'].lower(), "NEUTRAL")
         if label == "POSITIVE":
             signed_score = round(result['score'], 4)
